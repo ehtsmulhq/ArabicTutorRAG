@@ -66,4 +66,3 @@ python src/graph/graph_builder.py
 ## Constraints & Future Improvements
 - **Hardware:** All extraction uses local models. If your GPU has limited VRAM, change the Whisper model to `"base"` or `"tiny"` in `video_transcriber.py` and use a smaller quantized Ollama model.
 - **Deduplication:** Entity deduplication is currently simple. Fuzzy matching should be added in later phases.
-"# ArabicTutorRAG" 

@@ -1,0 +1,34 @@
+# LLM and Local Inference
+ollama
+
+# Embeddings and Vector Store
+chromadb
+sentence-transformers
+torch
+
+# Graph Store
+networkx
+
+# Document Parsing
+PyMuPDF
+
+# Video Transcription
+# whisper can be installed via git: pip install git+https://github.com/openai/whisper.git
+openai-whisper
+youtube-transcript-api
+yt-dlp
+
+# API and Backend
+fastapi
+uvicorn
+pydantic
+
+# Frontend
+streamlit
+
+# Configuration
+pyyaml
+
+# Scraping
+requests
+beautifulsoup4

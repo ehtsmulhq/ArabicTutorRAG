@@ -1,0 +1,1324 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "last_processed_index": 15
+  },
+  "nodes": [
+    {
+      "name": "Introduction to the new Arabic course",
+      "type": "Lesson",
+      "description": "An introductory lesson from the Madinah Arabic book series.",
+      "source": "Text chunk",
+      "id": "introduction to the new arabic course"
+    },
+    {
+      "name": "Hamza and Alif",
+      "type": "GrammarRule",
+      "description": "A grammar rule explaining the relationship between Hamza and Alif in Arabic script.",
+      "source": "Text chunk",
+      "id": "hamza and alif"
+    },
+    {
+      "name": "Alif",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 21.9s - 222.2s)",
+      "id": "alif"
+    },
+    {
+      "name": "Hamza",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 21.9s - 222.2s)",
+      "id": "hamza"
+    },
+    {
+      "name": "Hamza and Alif example",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 21.9s - 222.2s)",
+      "id": "hamza and alif example"
+    },
+    {
+      "name": "Madinah Arabic Book Series Lesson",
+      "type": "Lesson",
+      "description": "A lesson from the Madinah Arabic book series.",
+      "source": "Text chunk",
+      "id": "madinah arabic book series lesson"
+    },
+    {
+      "name": "Spelling Rules for Writing 'Hamza'",
+      "type": "GrammarRule",
+      "description": "Rules for writing 'Hamza' with different letters like 'W' and 'yah'.",
+      "source": "Text chunk",
+      "id": "spelling rules for writing 'hamza'"
+    },
+    {
+      "name": "Alif as a Chair",
+      "type": "Example",
+      "description": "An example sentence demonstrating the use of 'Alif' as a chair for Hamza.",
+      "source": "Text chunk",
+      "id": "alif as a chair"
+    },
+    {
+      "name": "Parts of Speech in Arabic",
+      "type": "GrammarRule",
+      "description": "Explanation of the three parts of speech in Arabic: noun, verb, and particles.",
+      "source": "Text chunk",
+      "id": "parts of speech in arabic"
+    },
+    {
+      "name": "Parts of Speech in English",
+      "type": "GrammarRule",
+      "description": "Explanation of the eight parts of speech in English: noun, pronoun, verb, adjective, adverb, preposition, conjunction, and interjection.",
+      "source": "Text chunk",
+      "id": "parts of speech in english"
+    },
+    {
+      "name": "Spelling Rules for Nouns in Arabic",
+      "type": "GrammarRule",
+      "description": "Explanation that in Arabic, nouns cover pronouns, adjectives, adverbs, and interjections.",
+      "source": "Text chunk",
+      "id": "spelling rules for nouns in arabic"
+    },
+    {
+      "name": "Madinah Arabic Book Series - Lesson on Nouns and Vowels",
+      "type": "Lesson",
+      "description": "A lesson from the Madinah Arabic book series covering nouns and vowel signs.",
+      "source": "unknown",
+      "id": "madinah arabic book series - lesson on nouns and vowels"
+    },
+    {
+      "name": "Noun Classification",
+      "type": "GrammarRule",
+      "description": "A rule explaining that pronouns, adjectives, adverbs, and interjections are all classified as nouns in Arabic.",
+      "source": "unknown",
+      "id": "noun classification"
+    },
+    {
+      "name": "Pronoun in Arabic",
+      "type": "GrammarRule",
+      "description": "A rule explaining the presence of the pronoun 'D' in Arabic, though it falls under the category of nouns.",
+      "source": "unknown",
+      "id": "pronoun in arabic"
+    },
+    {
+      "name": "D",
+      "type": "VocabItem",
+      "description": "The Arabic word for pronoun, although it is considered a noun.",
+      "source": "unknown",
+      "id": "d"
+    },
+    {
+      "name": "Pronoun Example",
+      "type": "Example",
+      "description": "An example of the pronoun 'D' in Arabic, used to demonstrate its usage.",
+      "source": "unknown",
+      "id": "pronoun example"
+    },
+    {
+      "name": "Vowel Signs",
+      "type": "GrammarRule",
+      "description": "A rule explaining the three short vowel signs in Arabic: D, F, and KAS.",
+      "source": "unknown",
+      "id": "vowel signs"
+    },
+    {
+      "name": "Short Vowels Demonstration",
+      "type": "Example",
+      "description": "Examples demonstrating the pronunciation of short vowels in Arabic.",
+      "source": "unknown",
+      "id": "short vowels demonstration"
+    },
+    {
+      "name": "Alif as a Vowel Sign",
+      "type": "GrammarRule",
+      "description": "A rule explaining the role of Alif in vowel elongation.",
+      "source": "unknown",
+      "id": "alif as a vowel sign"
+    },
+    {
+      "name": "Alif Elongation Example",
+      "type": "Example",
+      "description": "An example showing how Alif is used to elongate vowel sounds in Arabic.",
+      "source": "unknown",
+      "id": "alif elongation example"
+    },
+    {
+      "name": "Sukun",
+      "type": "VocabItem",
+      "description": "A term used to describe the silent mark in Arabic vowels.",
+      "source": "unknown",
+      "id": "sukun"
+    },
+    {
+      "name": "yah",
+      "type": "VocabItem",
+      "description": "A vocabulary item used in the explanation.",
+      "source": "Text chunk",
+      "id": "yah"
+    },
+    {
+      "name": "taba",
+      "type": "Example",
+      "description": "An example sentence used to demonstrate the concept of Sukun.",
+      "source": "Text chunk",
+      "id": "taba"
+    },
+    {
+      "name": "Explanation on Sukun",
+      "type": "AsifExplanation",
+      "description": "Explanations provided by Br. Asif on the concept and usage of Sukun in Arabic.",
+      "source": "Text chunk",
+      "id": "explanation on sukun"
+    },
+    {
+      "name": "Lesson from Madinah Arabic book series",
+      "type": "Lesson",
+      "description": "A specific lesson from Madinah Arabic book series.",
+      "source": "these things will come to you huh okay so you don't write it you don't write it but it is there okay I give you another example brother what is this brother taba what is it taba okay and what is this T are you with me now I write down like this what is this T there's no W sign on b t see how you pronounce b okay now if I say like this what is now brother and sisters tu tu here it was TBA and here it is Tu so there's a su on if I write like this brother huh so we did not pronounce b in its normal way as we pronounce and this and if I put dma here if I put here so has a it means it has no vowel sign it has no vowel sign huh Sukun means there's no vowel sign on the letter is it clear Insha'Allah try and remember this Brothers okay now we come to other part of the hand out brother and sisters the noun is either definite or indefinite sah brother and sisters either it is definite or indefinite what do we do in English when it is indefinite noun how do we do how do we describe it brother by using a or and are you with me this when comes in front of a noun makes it indefinite how do you define it make it definite the okay now in order to Define an indefinite noun in Arabic we do not have anything similar to this but at the end of the noun we put double vowel sign are you with me we put double vowel sign if it if the noun ends with a dhma then we put two Damas",
+      "id": "lesson from madinah arabic book series"
+    },
+    {
+      "name": "Writing and pronunciation of the letter 'b'",
+      "type": "GrammarRule",
+      "description": "A rule about how the letter 'b' is written and pronounced in Arabic.",
+      "source": "what is this T are you with me now I write down like this what is this T there's no W sign on b t see how you pronounce b okay",
+      "id": "writing and pronunciation of the letter 'b'"
+    },
+    {
+      "name": "Example of the letter 'b' pronunciation",
+      "type": "Example",
+      "description": "An example sentence demonstrating the pronunciation of the letter 'b'.",
+      "source": "now if I say like this what is now brother and sisters tu tu here it was TBA and here it is Tu so there's a su on if I write like this brother",
+      "id": "example of the letter 'b' pronunciation"
+    },
+    {
+      "name": "Sukun in Arabic",
+      "type": "GrammarRule",
+      "description": "A rule about the absence of a vowel sign in Arabic.",
+      "source": "so we did not pronounce b in its normal way as we pronounce and this and if I put dma here if I put here so has a it means it has no vowel sign it has no vowel sign huh Sukun means there's no vowel sign on the letter is it clear",
+      "id": "sukun in arabic"
+    },
+    {
+      "name": "Defining indefinite nouns in Arabic",
+      "type": "GrammarRule",
+      "description": "A rule about how to define indefinite nouns in Arabic by adding double vowel signs.",
+      "source": "In order to Define an indefinite noun in Arabic we do not have anything similar to this but at the end of the noun we put double vowel sign are you with me we put double vowel sign if it if the noun ends with a dhma then we put two Damas",
+      "id": "defining indefinite nouns in arabic"
+    },
+    {
+      "name": "T",
+      "type": "VocabItem",
+      "description": "A vocabulary word in Arabic.",
+      "source": "what is this T are you with me",
+      "id": "t"
+    },
+    {
+      "name": "Tu",
+      "type": "VocabItem",
+      "description": "A vocabulary word in Arabic.",
+      "source": "here it is Tu so there's a su on",
+      "id": "tu"
+    },
+    {
+      "name": "Sah",
+      "type": "VocabItem",
+      "description": "A vocabulary word in Arabic.",
+      "source": "sah brother and sisters either it is definite or indefinite",
+      "id": "sah"
+    },
+    {
+      "name": "A or an",
+      "type": "VocabItem",
+      "description": "A vocabulary word in English.",
+      "source": "how do we do how do we describe it brother by using a or and are you with me",
+      "id": "a or an"
+    },
+    {
+      "name": "Indefinite Noun in Arabic",
+      "type": "GrammarRule",
+      "description": "Rules for forming indefinite nouns in Arabic by adding vowel signs at the end of the noun. These rules are based on the last letter of the noun.",
+      "source": "Lesson",
+      "id": "indefinite noun in arabic"
+    },
+    {
+      "name": "Tan",
+      "type": "GrammarRule",
+      "description": "The sign used to indicate that a noun is indefinite, which is added to the end of a noun by modifying the last letter according to its final sound.",
+      "source": "Lesson",
+      "id": "tan"
+    },
+    {
+      "name": "Definite Noun in Arabic",
+      "type": "GrammarRule",
+      "description": "Rules for forming definite nouns in Arabic by adding the article Al (ال) at the beginning of the noun.",
+      "source": "Lesson",
+      "id": "definite noun in arabic"
+    },
+    {
+      "name": "Example of an Indefinite Noun",
+      "type": "Example",
+      "description": "A sentence demonstrating the indefinite form of a noun, such as 'kab' (a book) and 'b' (a house).",
+      "source": "Example",
+      "id": "example of an indefinite noun"
+    },
+    {
+      "name": "Example of a Definite Noun",
+      "type": "Example",
+      "description": "A sentence demonstrating the definite form of a noun, such as 'Al kab' (the book).",
+      "source": "Example",
+      "id": "example of a definite noun"
+    },
+    {
+      "name": "Explanation of Indefinite and Definite Nouns",
+      "type": "AsifExplanation",
+      "description": "An explanation of how indefinite and definite nouns are formed in Arabic, including the use of tan and Al.",
+      "source": "AsifExplanation",
+      "id": "explanation of indefinite and definite nouns"
+    },
+    {
+      "name": "Lesson",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 856.4s - 1056.7s)",
+      "id": "lesson"
+    },
+    {
+      "name": "GrammarRule",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 856.4s - 1056.7s)",
+      "id": "grammarrule"
+    },
+    {
+      "name": "Madinah Arabic Book Series - Lesson 1.1",
+      "type": "Lesson",
+      "description": "A lesson from the Madinah Arabic book series introducing basic concepts of the Arabic language.",
+      "source": "Text chunk provided",
+      "id": "madinah arabic book series - lesson 1.1"
+    },
+    {
+      "name": "Indefinite and Definite Nouns",
+      "type": "GrammarRule",
+      "description": "Explains the difference between indefinite and definite nouns and the usage of tan and Al in Arabic.",
+      "source": "Text chunk provided",
+      "id": "indefinite and definite nouns"
+    },
+    {
+      "name": "المنزل (Al-manzil)",
+      "type": "VocabItem",
+      "description": "The word 'house' in Arabic.",
+      "source": "Text chunk provided",
+      "id": "المنزل (al-manzil)"
+    },
+    {
+      "name": "محمد (Muhammad)",
+      "type": "VocabItem",
+      "description": "The name 'Muhammad' in Arabic.",
+      "source": "Text chunk provided",
+      "id": "محمد (muhammad)"
+    },
+    {
+      "name": "علي (Ali)",
+      "type": "VocabItem",
+      "description": "The name 'Ali' in Arabic.",
+      "source": "Text chunk provided",
+      "id": "علي (ali)"
+    },
+    {
+      "name": "Examples of Indefinite and Definite Nouns",
+      "type": "Example",
+      "description": "Illustrates the usage of indefinite and definite nouns in sentences.",
+      "source": "Text chunk provided",
+      "id": "examples of indefinite and definite nouns"
+    },
+    {
+      "name": "Explanation on Indefinite and Definite Nouns",
+      "type": "AsifExplanation",
+      "description": "Br. Asif's explanation on the distinction between indefinite and definite nouns and their usage in Arabic.",
+      "source": "Text chunk provided",
+      "id": "explanation on indefinite and definite nouns"
+    },
+    {
+      "name": "Madinah Arabic Book Series - Lesson 1.2",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 1023.3s - 1223.6s)",
+      "id": "madinah arabic book series - lesson 1.2"
+    },
+    {
+      "name": "The use of tanwīn with proper nouns",
+      "type": "GrammarRule",
+      "description": "A grammar rule explaining that the tanwīn does not change with proper nouns, indicating definiteness.",
+      "source": "text chunk",
+      "id": "the use of tanwīn with proper nouns"
+    },
+    {
+      "name": "Example of a proper noun with tanwīn",
+      "type": "Example",
+      "description": "An example sentence where a proper noun is used with tanwīn to indicate definiteness.",
+      "source": "text chunk",
+      "id": "example of a proper noun with tanwīn"
+    },
+    {
+      "name": "Explanation of Dr. Abd's teaching method",
+      "type": "AsifExplanation",
+      "description": "An excerpt where Br. Asif explains Dr. Abd's approach to teaching Arabic, focusing on one topic at a time before introducing related concepts.",
+      "source": "text chunk",
+      "id": "explanation of dr. abd's teaching method"
+    },
+    {
+      "name": "Lesson on Nouns",
+      "type": "Lesson",
+      "description": "A specific lesson from Madinah Arabic book series focusing on nouns.",
+      "source": "text chunk",
+      "id": "lesson on nouns"
+    },
+    {
+      "name": "Declination of Nouns",
+      "type": "GrammarRule",
+      "description": "A grammar rule or concept taught in the lesson, specifically about the declination of nouns.",
+      "source": "text chunk",
+      "id": "declination of nouns"
+    },
+    {
+      "name": "Example of Declination",
+      "type": "Example",
+      "description": "An example sentence demonstrating the declination of a noun: 'Muhammad is the messenger of Allah' and 'Muhammadan' is used in Salah.",
+      "source": "text chunk",
+      "id": "example of declination"
+    },
+    {
+      "name": "Explanation of Declination",
+      "type": "AsifExplanation",
+      "description": "An excerpt of Br. Asif explaining the concept of noun declination, using examples from Salah.",
+      "source": "text chunk",
+      "id": "explanation of declination"
+    },
+    {
+      "name": "Noun Declensions",
+      "type": "GrammarRule",
+      "description": "The rule that Arabic nouns can decline to three different endings: TanD, TanF, and TanA.",
+      "source": "text chunk",
+      "id": "noun declensions"
+    },
+    {
+      "name": "Muhammad",
+      "type": "VocabItem",
+      "description": "The name Muhammad in Arabic and English.",
+      "source": "text chunk",
+      "id": "muhammad"
+    },
+    {
+      "name": "Bearing Witness",
+      "type": "Example",
+      "description": "An example of the phrase 'I bear witness that Muhammad is his slave and his messenger.' in Arabic and English.",
+      "source": "text chunk",
+      "id": "bearing witness"
+    },
+    {
+      "name": "Salat Invocation",
+      "type": "Example",
+      "description": "An example of the phrase 'Ya Allah send your blessings on Muhammad.' in Arabic and English.",
+      "source": "text chunk",
+      "id": "salat invocation"
+    },
+    {
+      "name": "Explanation of Noun Declensions",
+      "type": "AsifExplanation",
+      "description": "Br. Asif's explanation of the rule that Arabic nouns can decline to three different endings.",
+      "source": "text chunk",
+      "id": "explanation of noun declensions"
+    },
+    {
+      "name": "Lesson CONTAINS GrammarRule, VocabItem, Example",
+      "type": "Lesson",
+      "description": "A specific lesson from Madinah Arabic book series.",
+      "source": "sisters so what is this brother only the ending what is it D and what is this Dan and what is this then say it again loudly D then these are the three declensions huh okay every Arabic noun will decline sometimes you will see it and sometimes you won't see it but we are going to learn everything in the initial stage we will see the vowel signs in the books but later on we may not I give you one more example brother now I'm going to remove this huh and why it happens brother and sisters this is what we are going to learn and this is what you will be watching in the Quran you will be looking when you are reading you will notice this you will observe this brother and then it will tell us this last vowel sign in the noun will tell you the function of that noun in a sentence what is that noun doing in a sentence is it coming as a subject is it coming as a subject of a verb is it coming as an object is it coming after a preposition it will tell you in its natural course in it in its natural form all the nouns are always end with a D all the time they change when something happens in the sentence when they perform a different function in the sentence then they change brother give you one more example you know all these things but you never knew why and this course is going to teach you brother and sisters okay I will write down here what did I write down brother Allah is it definite or indefinite it is definite because Allah is there noan because Allah is there no",
+      "id": "lesson contains grammarrule, vocabitem, example"
+    },
+    {
+      "name": "Declension of Arabic Nouns",
+      "type": "GrammarRule",
+      "description": "A grammar rule or concept taught in the lesson.",
+      "source": "every Arabic noun will decline sometimes you will see it and sometimes you won't see it but we are going to learn everything in the initial stage we will see the vowel signs in the books but later on we may not",
+      "id": "declension of arabic nouns"
+    },
+    {
+      "name": "Example Sentence",
+      "type": "Example",
+      "description": "An example sentence demonstrating a grammar rule.",
+      "source": "D then these are the three declensions",
+      "id": "example sentence"
+    },
+    {
+      "name": "Explanations by Br. Asif",
+      "type": "AsifExplanation",
+      "description": "An excerpt of Br. Asif explaining a grammar concept or rule in his distinct teaching style.",
+      "source": "brother and sisters this is what we are going to learn and this is what you will be watching in the Quran you will be looking when you are reading you will notice this you will observe this brother and then it will tell us this last vowel sign in the noun will tell you the function of that noun in a sentence what is that noun doing in a sentence is it coming as a subject is it coming as a subject of a verb is it coming as an object is it coming after a preposition it will tell you in its natural course in it in its natural form all the nouns are always end with a D all the time they change when something happens in the sentence when they perform a different function in the sentence then they change brother give you one more example you know all these things but you never knew why and this course is going to teach you brother and sisters okay I will write down here what did I write down brother Allah is it definite or indefinite it is definite because Allah is there noan because Allah is there no",
+      "id": "explanations by br. asif"
+    },
+    {
+      "name": "Example",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 1690.9s - 1891.2s)",
+      "id": "example"
+    },
+    {
+      "name": "AsifExplanation",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 1690.9s - 1891.2s)",
+      "id": "asifexplanation"
+    },
+    {
+      "name": "Lesson PREREQUISITE_OF",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 1690.9s - 1891.2s)",
+      "id": "lesson prerequisite_of"
+    },
+    {
+      "name": "GrammarRule PREREQUISITE_OF",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 1690.9s - 1891.2s)",
+      "id": "grammarrule prerequisite_of"
+    },
+    {
+      "name": "Madinah Arabic Book Series, Lesson 1",
+      "type": "Lesson",
+      "description": "A lesson from the Madinah Arabic book series.",
+      "source": "Given text chunk",
+      "id": "madinah arabic book series, lesson 1"
+    },
+    {
+      "name": "Nominative Case in Arabic",
+      "type": "GrammarRule",
+      "description": "Explains the concept of the nominative case for nouns in Arabic.",
+      "source": "Given text chunk",
+      "id": "nominative case in arabic"
+    },
+    {
+      "name": "Allah",
+      "type": null,
+      "description": "A vocabulary word in Arabic.",
+      "source": "Given text chunk",
+      "id": "allah"
+    },
+    {
+      "name": "الله",
+      "type": null,
+      "description": "An example of a definite noun in Arabic, used to demonstrate the concept of the nominative case.",
+      "source": "Given text chunk",
+      "id": "الله"
+    },
+    {
+      "name": "Explanation of the nominative case and the decline of nouns in Arabic.",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 1857.8s - 2058.1s)",
+      "id": "explanation of the nominative case and the decline of nouns in arabic."
+    },
+    {
+      "name": "Nominative Case",
+      "type": "GrammarRule",
+      "description": "A grammar rule explaining the nominative case.",
+      "source": "what do you call it in English you'll call that it is a nominative case",
+      "id": "nominative case"
+    },
+    {
+      "name": "Objective Case",
+      "type": "GrammarRule",
+      "description": "A grammar rule explaining the objective case.",
+      "source": "what do we call it in English either you call it objective case or accusative case",
+      "id": "objective case"
+    },
+    {
+      "name": "Genitive Case",
+      "type": "GrammarRule",
+      "description": "A grammar rule explaining the genitive case.",
+      "source": "but but we will memorize these tongues that I'm writing now if the noun ends with a KAS be it a tan or one we will say the noun is maj not majur Maj okay Ma Ma are you with me and in English it is called genitive case huh I think it is I gen case yes generative case and accusative case maybe I should write down accusative case also man is accusative case okay brother and sisters",
+      "id": "genitive case"
+    },
+    {
+      "name": "Maru",
+      "type": "VocabItem",
+      "description": "The Arabic term for the nominative case.",
+      "source": "what do you call it in English you'll call that it is a nominative case",
+      "id": "maru"
+    },
+    {
+      "name": "Mans",
+      "type": "VocabItem",
+      "description": "The Arabic term for the objective case.",
+      "source": "what do we call it in English either you call it objective case or accusative case",
+      "id": "mans"
+    },
+    {
+      "name": "Maj",
+      "type": "VocabItem",
+      "description": "The Arabic term for the genitive case.",
+      "source": "if the noun ends with a KAS be it a tan or one we will say the noun is maj not majur Maj",
+      "id": "maj"
+    },
+    {
+      "name": "Allah as an example",
+      "type": "Example",
+      "description": "An example sentence demonstrating the use of case endings.",
+      "source": "Allah as soon as I put in in front of it I said in",
+      "id": "allah as an example"
+    },
+    {
+      "name": "Explanation of case endings",
+      "type": "AsifExplanation",
+      "description": "Excerpts of Br. Asif explaining the concept of noun cases in Arabic.",
+      "source": "brother if you are comfortable we will use some English terms but later on you will be most comfortable with Arabic terms",
+      "id": "explanation of case endings"
+    },
+    {
+      "name": "First Lesson in Book Two of Madinah Arabic Book Series",
+      "type": "Lesson",
+      "description": "The first lesson in Book Two of the Madinah Arabic series, focusing on the Maru system and how nouns can change based on their function in a sentence.",
+      "source": "Text chunk provided",
+      "id": "first lesson in book two of madinah arabic book series"
+    },
+    {
+      "name": "Maru System",
+      "type": "GrammarRule",
+      "description": "The system by which nouns can change form based on their function in a sentence, specifically discussing mansu (with a definite article) and ma (without a definite article) forms.",
+      "source": "Text chunk provided",
+      "id": "maru system"
+    },
+    {
+      "name": "Example of Maru System",
+      "type": "Example",
+      "description": "Examples given to illustrate the change in noun forms, such as 'Allah' becoming 'al-'Allah' with the addition of the definite article 'al-'.",
+      "source": "Text chunk provided",
+      "id": "example of maru system"
+    },
+    {
+      "name": "Explanation of Maru System",
+      "type": "AsifExplanation",
+      "description": "Br. Asif's explanation of the Maru system, including a mnemonic song to help learners remember the different forms of nouns.",
+      "source": "Text chunk provided",
+      "id": "explanation of maru system"
+    },
+    {
+      "name": "Madinah Arabic Book 1 Lesson 1",
+      "type": "Lesson",
+      "description": "A specific lesson from Madinah Arabic book series.",
+      "source": "Text chunk",
+      "id": "madinah arabic book 1 lesson 1"
+    },
+    {
+      "name": "Pronoun",
+      "type": "GrammarRule",
+      "description": "A grammatical concept explaining what pronouns are in Arabic.",
+      "source": "Text chunk",
+      "id": "pronoun"
+    },
+    {
+      "name": "ha",
+      "type": "VocabItem",
+      "description": "A word in Arabic, explained as a pronoun.",
+      "source": "Text chunk",
+      "id": "ha"
+    },
+    {
+      "name": "haah",
+      "type": "VocabItem",
+      "description": "A word in Arabic, explained as a demonstrative pronoun.",
+      "source": "Text chunk",
+      "id": "haah"
+    },
+    {
+      "name": "isar",
+      "type": "VocabItem",
+      "description": "A term in Arabic used to refer to the demonstrative pronoun.",
+      "source": "Text chunk",
+      "id": "isar"
+    },
+    {
+      "name": "ha is a pronoun",
+      "type": "Example",
+      "description": "An example sentence demonstrating the concept of a pronoun.",
+      "source": "Text chunk",
+      "id": "ha is a pronoun"
+    },
+    {
+      "name": "haah is a demonstrative pronoun",
+      "type": "Example",
+      "description": "An example sentence demonstrating the concept of a demonstrative pronoun.",
+      "source": "Text chunk",
+      "id": "haah is a demonstrative pronoun"
+    },
+    {
+      "name": "Explanation of pronouns and demonstrative pronouns",
+      "type": "AsifExplanation",
+      "description": "An excerpt of Br. Asif explaining the concept of pronouns and demonstrative pronouns.",
+      "source": "Text chunk",
+      "id": "explanation of pronouns and demonstrative pronouns"
+    },
+    {
+      "name": "Demonstrative pronoun",
+      "source": "Video: 001_PSxLKxhrTt0_Madina_Arabic__Book_1__DVD_01__Part_A1.json (Time: 2358.6s - 2558.9s)",
+      "id": "demonstrative pronoun"
+    },
+    {
+      "name": "Explanation of the demonstrative pronoun 'ha'",
+      "type": "AsifExplanation",
+      "description": "Br. Asif explains that 'ha' is a demonstrative pronoun and a noun in Arabic.",
+      "source": "ha are you with me brother what is haah it is a demonstrative pronoun which means it's a noun are you with me okay",
+      "id": "explanation of the demonstrative pronoun 'ha'"
+    },
+    {
+      "name": "Introduction to Madinah Arabic Book Series",
+      "type": "Lesson",
+      "description": "A lesson from the Madinah Arabic book series covering basic concepts like demonstrative pronouns and reading/writing practices.",
+      "source": "ha are you with me brother what is haah it is a demonstrative pronoun which means it's a noun are you with me okay and then in in Arabic we call it isar we call it is okay now these are the sentences simple sentences we are studying I'm not going to go in detail but very soon we'll go in detail because hours is intensive course we will be moving at a steady Pace",
+      "id": "introduction to madinah arabic book series"
+    },
+    {
+      "name": "Reading and Writing Practice",
+      "type": "GrammarRule",
+      "description": "A grammar rule emphasizing the importance of reading and writing in Arabic learning.",
+      "source": "now these are the sentences simple sentences we are studying I'm not going to go in detail but very soon we'll go in detail because hours is intensive course we will be moving at a steady Pace brother now as as you know you are all supposed to read huh you must know how to read and you will be writing all these things in your book and the more you read and write you will become stronger brother",
+      "id": "reading and writing practice"
+    },
+    {
+      "name": "Example of Reading and Writing Practice",
+      "type": "Example",
+      "description": "An example of reading and writing Arabic sentences.",
+      "source": "and you will be writing all these things in your book and the more you read and write you will become stronger brother",
+      "id": "example of reading and writing practice"
+    },
+    {
+      "name": "Encouragement for Teamwork",
+      "type": "AsifExplanation",
+      "description": "Br. Asif explains the benefits of studying in pairs, such as reading to each other and discussing.",
+      "source": "and in the class if you you are a team of husband and wife it's a great thing because you can go home and read to each other and and discuss with each other and it will help every day brother",
+      "id": "encouragement for teamwork"
+    },
+    {
+      "name": "Homework and Study Routine",
+      "type": "AsifExplanation",
+      "description": "Br. Asif explains the importance of doing homework and studying regularly, comparing it to attending a university program.",
+      "source": "you got to do your homework this is just just like coming to a college or a university program where you go in the morning to the university go home and study come back and learn more so our course is like that if you will work hard you will succeed if you won't then it will be a problem okay",
+      "id": "homework and study routine"
+    }
+  ],
+  "edges": [
+    {
+      "type": "CONTAINS",
+      "rationale": "The introductory lesson includes a discussion on the grammar rule of Hamza and Alif.",
+      "source": "introduction to the new arabic course",
+      "target": "hamza and alif"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The introductory lesson includes a vocabulary item of Alif.",
+      "source": "introduction to the new arabic course",
+      "target": "alif"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The introductory lesson includes a vocabulary item of Hamza.",
+      "source": "introduction to the new arabic course",
+      "target": "hamza"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example sentence demonstrates the concept of Hamza and Alif.",
+      "source": "hamza and alif",
+      "target": "hamza and alif example"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson is expected to cover the spelling rules for writing 'Hamza' as part of the curriculum.",
+      "source": "madinah arabic book series lesson",
+      "target": "spelling rules for writing 'hamza'"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson likely includes the concept of Hamza as a part of the lesson content.",
+      "source": "madinah arabic book series lesson",
+      "target": "hamza"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson focuses on the concept of Sukun, a grammar rule.",
+      "source": "madinah arabic book series lesson",
+      "target": "sukun"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The vocabulary item 'yah' is used in the explanation within the lesson.",
+      "source": "madinah arabic book series lesson",
+      "target": "yah"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The example 'taba' is provided in the lesson to demonstrate the Sukun rule.",
+      "source": "madinah arabic book series lesson",
+      "target": "taba"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson focuses on noun declensions, which is a specific grammar rule.",
+      "source": "madinah arabic book series lesson",
+      "target": "noun declensions"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson uses the name Muhammad as an example.",
+      "source": "madinah arabic book series lesson",
+      "target": "muhammad"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson provides the example 'I bear witness that Muhammad is his slave and his messenger.'",
+      "source": "madinah arabic book series lesson",
+      "target": "bearing witness"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson provides the example 'Ya Allah send your blessings on Muhammad.'",
+      "source": "madinah arabic book series lesson",
+      "target": "salat invocation"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example sentence 'Alif as a Chair' demonstrates the use of 'Alif' as a support for 'Hamza'.",
+      "source": "spelling rules for writing 'hamza'",
+      "target": "alif as a chair"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The explanation about nouns covering various parts of speech in 'Spelling Rules for Nouns in Arabic' may relate to the context of 'Spelling Rules for Writing 'Hamza''.",
+      "source": "spelling rules for writing 'hamza'",
+      "target": "spelling rules for nouns in arabic"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "Knowledge of parts of speech in English is not directly necessary, but understanding the parts of speech in Arabic may be a prerequisite for a more comprehensive understanding of parts of speech in general.",
+      "source": "parts of speech in arabic",
+      "target": "parts of speech in english"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "Understanding the parts of speech in Arabic (nouns, verbs, and particles) is a prerequisite to understand the spelling rules for nouns, including 'Hamza'.",
+      "source": "spelling rules for nouns in arabic",
+      "target": "parts of speech in arabic"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the rule of noun classification.",
+      "source": "madinah arabic book series - lesson on nouns and vowels",
+      "target": "noun classification"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the rule related to the pronoun 'D' as a noun.",
+      "source": "madinah arabic book series - lesson on nouns and vowels",
+      "target": "pronoun in arabic"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the term 'D' as a pronoun in Arabic.",
+      "source": "madinah arabic book series - lesson on nouns and vowels",
+      "target": "d"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the rule of vowel signs in Arabic.",
+      "source": "madinah arabic book series - lesson on nouns and vowels",
+      "target": "vowel signs"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the rule of Alif as a vowel sign.",
+      "source": "madinah arabic book series - lesson on nouns and vowels",
+      "target": "alif as a vowel sign"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the term Sukun, which is a silent mark in Arabic vowels.",
+      "source": "madinah arabic book series - lesson on nouns and vowels",
+      "target": "sukun"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The rule of noun classification explains the presence of the pronoun 'D' in Arabic.",
+      "source": "noun classification",
+      "target": "pronoun in arabic"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "Understanding noun classification is prerequisite for understanding the term 'D' as a pronoun.",
+      "source": "noun classification",
+      "target": "d"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The rule of the pronoun in Arabic explains the term 'D'.",
+      "source": "pronoun in arabic",
+      "target": "d"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example demonstrates the usage of the pronoun 'D'.",
+      "source": "pronoun in arabic",
+      "target": "pronoun example"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "Understanding the rule of vowel signs is prerequisite for understanding the role of Alif as a vowel sign.",
+      "source": "vowel signs",
+      "target": "alif as a vowel sign"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "Understanding the rule of vowel signs is prerequisite for understanding the term Sukun.",
+      "source": "vowel signs",
+      "target": "sukun"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example demonstrates the use of Alif in vowel elongation.",
+      "source": "alif as a vowel sign",
+      "target": "alif elongation example"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example 'taba' is used to demonstrate the concept of Sukun.",
+      "source": "sukun",
+      "target": "taba"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The explanation on Sukun by Br. Asif provides a detailed explanation of the rule.",
+      "source": "sukun",
+      "target": "explanation on sukun"
+    },
+    {
+      "type": "EXPLAINS",
+      "rationale": "The AsifExplanation explains the concept of Sukun.",
+      "source": "explanation on sukun",
+      "target": "sukun"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson discusses the writing and pronunciation of the letter 'b'.",
+      "source": "lesson from madinah arabic book series",
+      "target": "writing and pronunciation of the letter 'b'"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson explains the concept of Sukun in Arabic.",
+      "source": "lesson from madinah arabic book series",
+      "target": "sukun in arabic"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the rule of defining indefinite nouns in Arabic.",
+      "source": "lesson from madinah arabic book series",
+      "target": "defining indefinite nouns in arabic"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson discusses proper nouns, tanwīn, and includes the specific grammar rule about the use of tanwīn with proper nouns.",
+      "source": "lesson from madinah arabic book series",
+      "target": "the use of tanwīn with proper nouns"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the concept of the nominative case.",
+      "source": "lesson from madinah arabic book series",
+      "target": "nominative case"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the concept of the objective case.",
+      "source": "lesson from madinah arabic book series",
+      "target": "objective case"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the concept of the genitive case.",
+      "source": "lesson from madinah arabic book series",
+      "target": "genitive case"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif provides an explanation of the concept of noun cases in the lesson.",
+      "source": "lesson from madinah arabic book series",
+      "target": "explanation of case endings"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example sentence demonstrates the pronunciation of the letter 'b'.",
+      "source": "writing and pronunciation of the letter 'b'",
+      "target": "example of the letter 'b' pronunciation"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The explanation of the letter 'T' in the lesson relates to the writing and pronunciation rule.",
+      "source": "writing and pronunciation of the letter 'b'",
+      "target": "t"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The concept of Sukun is explained in the lesson, and 'Taba' is used as an example of its application.",
+      "source": "sukun in arabic",
+      "target": "taba"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The English words 'A or an' are used as an example in the lesson to explain how to define indefinite nouns in Arabic.",
+      "source": "defining indefinite nouns in arabic",
+      "target": "a or an"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The vocabulary item 'Sah' is used as an example in the lesson to explain the concept of indefinite nouns in Arabic.",
+      "source": "defining indefinite nouns in arabic",
+      "target": "sah"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson teaches the rules for forming indefinite nouns in Arabic.",
+      "source": "lesson",
+      "target": "indefinite noun in arabic"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson explains the use of Tan in forming indefinite nouns.",
+      "source": "lesson",
+      "target": "tan"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson teaches the rules for forming definite nouns in Arabic.",
+      "source": "lesson",
+      "target": "definite noun in arabic"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson contains the concept of declension of Arabic nouns.",
+      "source": "lesson",
+      "target": "grammarrule"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson contains the example sentence 'D then these are the three declensions'.",
+      "source": "lesson",
+      "target": "example"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example demonstrates the indefinite form of a noun.",
+      "source": "grammarrule",
+      "target": "example of an indefinite noun"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example demonstrates the definite form of a noun.",
+      "source": "grammarrule",
+      "target": "example of a definite noun"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "AsifExplanation provides the explanation for how indefinite and definite nouns are formed in Arabic.",
+      "source": "grammarrule",
+      "target": "explanation of indefinite and definite nouns"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example sentence demonstrates the declension of Arabic nouns.",
+      "source": "grammarrule",
+      "target": "example"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif explains the concept of declension of Arabic nouns in his teaching style.",
+      "source": "grammarrule",
+      "target": "asifexplanation"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson introduces the concept of indefinite and definite nouns.",
+      "source": "madinah arabic book series - lesson 1.1",
+      "target": "indefinite and definite nouns"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson includes the vocabulary item 'المنزل' as an example.",
+      "source": "madinah arabic book series - lesson 1.1",
+      "target": "المنزل (al-manzil)"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson includes the vocabulary item 'محمد' as an example.",
+      "source": "madinah arabic book series - lesson 1.1",
+      "target": "محمد (muhammad)"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson includes the vocabulary item 'علي' as an example.",
+      "source": "madinah arabic book series - lesson 1.1",
+      "target": "علي (ali)"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "Lesson 1.2 likely builds upon the concepts introduced in Lesson 1.1.",
+      "source": "madinah arabic book series - lesson 1.1",
+      "target": "madinah arabic book series - lesson 1.2"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The examples illustrate the usage of indefinite and definite nouns.",
+      "source": "indefinite and definite nouns",
+      "target": "examples of indefinite and definite nouns"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif explains the distinction between indefinite and definite nouns in his teaching style.",
+      "source": "indefinite and definite nouns",
+      "target": "explanation on indefinite and definite nouns"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The explanation covers the concept of indefinite and definite nouns.",
+      "source": "explanation on indefinite and definite nouns",
+      "target": "indefinite and definite nouns"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example sentence demonstrates how the tanwīn is used with a proper noun to indicate definiteness.",
+      "source": "the use of tanwīn with proper nouns",
+      "target": "example of a proper noun with tanwīn"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "The specific grammar rule about the use of tanwīn with proper nouns is a prerequisite for understanding the example sentence that demonstrates its use.",
+      "source": "the use of tanwīn with proper nouns",
+      "target": "the use of tanwīn with proper nouns"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "To understand the example sentence, one must first understand the grammar rule about the use of tanwīn with proper nouns.",
+      "source": "example of a proper noun with tanwīn",
+      "target": "the use of tanwīn with proper nouns"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif explains Dr. Abd's teaching method in the lesson, which focuses on one topic at a time before introducing related concepts.",
+      "source": "explanation of dr. abd's teaching method",
+      "target": "lesson from madinah arabic book series"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson focuses on nouns and includes the concept of noun declination.",
+      "source": "lesson on nouns",
+      "target": "declination of nouns"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example sentence demonstrates the declination of nouns as a grammar rule.",
+      "source": "declination of nouns",
+      "target": "example of declination"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The explanation provided by Br. Asif clarifies the concept of noun declination.",
+      "source": "declination of nouns",
+      "target": "explanation of declination"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example 'I bear witness that Muhammad is his slave and his messenger.' demonstrates the Noun Declensions rule.",
+      "source": "noun declensions",
+      "target": "bearing witness"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example 'Ya Allah send your blessings on Muhammad.' demonstrates the Noun Declensions rule.",
+      "source": "noun declensions",
+      "target": "salat invocation"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif explains the rule that Arabic nouns can decline to three different endings in his explanation.",
+      "source": "noun declensions",
+      "target": "explanation of noun declensions"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The example 'I bear witness that Muhammad is his slave and his messenger.' is part of Br. Asif's explanation of Noun Declensions.",
+      "source": "bearing witness",
+      "target": "noun declensions"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The example 'Ya Allah send your blessings on Muhammad.' is part of Br. Asif's explanation of Noun Declensions.",
+      "source": "salat invocation",
+      "target": "noun declensions"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "The explanation of Noun Declensions is a prerequisite for the lesson as it teaches the rule before its application in examples.",
+      "source": "explanation of noun declensions",
+      "target": "madinah arabic book series lesson"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "The lesson is a prerequisite for further lessons in the Madinah Arabic book series.",
+      "source": "lesson prerequisite_of",
+      "target": "lesson"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "A more advanced grammar rule is a prerequisite for a less advanced grammar rule.",
+      "source": "grammarrule prerequisite_of",
+      "target": "grammarrule"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "Lesson 1 contains the grammar rule of the nominative case.",
+      "source": "madinah arabic book series, lesson 1",
+      "target": "nominative case in arabic"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "Lesson 1 contains the vocabulary item 'الله'.",
+      "source": "madinah arabic book series, lesson 1",
+      "target": "الله"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example 'الله' demonstrates the concept of the nominative case.",
+      "source": "nominative case in arabic",
+      "target": "الله"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif explains the concept of the nominative case in his teaching style.",
+      "source": "nominative case in arabic",
+      "target": "explanation of the nominative case and the decline of nouns in arabic."
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "Mastering the nominative case is a prerequisite for understanding the decline of nouns in Arabic.",
+      "source": "nominative case in arabic",
+      "target": "nominative case in arabic"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The term Maru is used to explain the nominative case.",
+      "source": "nominative case",
+      "target": "maru"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example sentence 'Allah' is used to demonstrate the nominative case.",
+      "source": "nominative case",
+      "target": "allah as an example"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The term Mans is used to explain the objective case.",
+      "source": "objective case",
+      "target": "mans"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "The term Maj is used to explain the genitive case.",
+      "source": "genitive case",
+      "target": "maj"
+    },
+    {
+      "type": "PREREQUISITE_OF",
+      "rationale": "The Maru system is taught as part of the first lesson in the series, implying it is a prerequisite for understanding the subsequent content.",
+      "source": "first lesson in book two of madinah arabic book series",
+      "target": "maru system"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The examples provided illustrate the change in noun forms according to the Maru system.",
+      "source": "maru system",
+      "target": "example of maru system"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif's explanation includes a detailed description of the Maru system, including a mnemonic song.",
+      "source": "maru system",
+      "target": "explanation of maru system"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson covers the concept of pronouns.",
+      "source": "madinah arabic book 1 lesson 1",
+      "target": "pronoun"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif explains the term 'ha' as a pronoun in the lesson.",
+      "source": "madinah arabic book 1 lesson 1",
+      "target": "ha"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif explains the term 'haah' as a demonstrative pronoun in the lesson.",
+      "source": "madinah arabic book 1 lesson 1",
+      "target": "haah"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif explains the term 'isar' as a term for demonstrative pronoun in the lesson.",
+      "source": "madinah arabic book 1 lesson 1",
+      "target": "isar"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example sentence demonstrates the concept of a pronoun.",
+      "source": "pronoun",
+      "target": "ha is a pronoun"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif provides an explanation of pronouns and demonstrative pronouns in the AsifExplanation.",
+      "source": "pronoun",
+      "target": "explanation of pronouns and demonstrative pronouns"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The example sentence demonstrates the concept of a demonstrative pronoun.",
+      "source": "demonstrative pronoun",
+      "target": "haah is a demonstrative pronoun"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif provides an explanation of pronouns and demonstrative pronouns in the AsifExplanation.",
+      "source": "demonstrative pronoun",
+      "target": "explanation of pronouns and demonstrative pronouns"
+    },
+    {
+      "type": "EXPLAINED_BY",
+      "rationale": "Br. Asif explains that 'ha' is a demonstrative pronoun in his explanation.",
+      "source": "explanation of the demonstrative pronoun 'ha'",
+      "target": "ha"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson 'Introduction to Madinah Arabic Book Series' contains the AsifExplanation about the demonstrative pronoun 'ha'.",
+      "source": "introduction to madinah arabic book series",
+      "target": "explanation of the demonstrative pronoun 'ha'"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson 'Introduction to Madinah Arabic Book Series' contains the GrammarRule about reading and writing practice.",
+      "source": "introduction to madinah arabic book series",
+      "target": "reading and writing practice"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson 'Introduction to Madinah Arabic Book Series' contains the AsifExplanation about the importance of homework and study routine.",
+      "source": "introduction to madinah arabic book series",
+      "target": "homework and study routine"
+    },
+    {
+      "type": "CONTAINS",
+      "rationale": "The lesson 'Introduction to Madinah Arabic Book Series' contains the AsifExplanation about the benefits of teamwork.",
+      "source": "introduction to madinah arabic book series",
+      "target": "encouragement for teamwork"
+    },
+    {
+      "type": "DEMONSTRATED_BY",
+      "rationale": "The GrammarRule of reading and writing practice is demonstrated by the Example of Reading and Writing Practice.",
+      "source": "reading and writing practice",
+      "target": "example of reading and writing practice"
+    }
+  ]
+}

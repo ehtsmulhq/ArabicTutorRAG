@@ -1,0 +1,21 @@
+entities:
+  Lesson:
+    description: "A specific lesson from Madinah Arabic book series."
+  GrammarRule:
+    description: "A grammar rule or concept taught in the lesson."
+  VocabItem:
+    description: "A vocabulary word or phrase in Arabic."
+  Example:
+    description: "An example sentence demonstrating a grammar rule."
+  AsifExplanation:
+    description: "An excerpt of Br. Asif explaining a grammar concept or rule in his distinct teaching style."
+
+relationships:
+  CONTAINS:
+    description: "Lesson CONTAINS GrammarRule, VocabItem, Example"
+  DEMONSTRATED_BY:
+    description: "GrammarRule DEMONSTRATED_BY Example"
+  EXPLAINED_BY:
+    description: "GrammarRule EXPLAINED_BY AsifExplanation"
+  PREREQUISITE_OF:
+    description: "Lesson PREREQUISITE_OF Lesson, or GrammarRule PREREQUISITE_OF GrammarRule"
