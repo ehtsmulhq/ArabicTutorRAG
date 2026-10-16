@@ -280,19 +280,6 @@ This project implements a **One-Pass JSON Security Shield** at the query engine 
 
 ---
 
-## 🗺️ Roadmap
-
-- [x] **Phase 1** — YouTube transcript ingestion & automated cleaning
-- [x] **Phase 2** — Hybrid GraphRAG extraction (NetworkX + ChromaDB)  
-- [x] **Phase 3** — CLI query engine with One-Pass JSON Security Shield
-- [x] **Phase 4** — Streamlit Web UI with Arabic font support
-- [ ] **Phase 5** — React/Next.js frontend + production FastAPI backend
-- [ ] **Phase 6** — QLoRA fine-tuning on auto-generated Q&A training dataset
-- [ ] **Phase 7** — Multi-book ingestion (Madinah Books 2 & 3)
-- [ ] **Phase 8** — Spaced-repetition quiz engine (V2 product feature)
-
----
-
 ## 📄 License
 
 This project is built for educational purposes.
