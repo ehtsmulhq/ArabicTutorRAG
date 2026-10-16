@@ -1,95 +1,126 @@
-# 🕌 Arabic Grammar Teaching Assistant — GraphRAG + Local LLM
+<div align="center">
 
-> A Hybrid **Graph**RAG system that teaches Madinah Arabic grammar with grounded facts, zero hallucination, and a custom AI persona.
+# 🕌 ArabicTutorRAG
+
+### A Hybrid GraphRAG System for Teaching Madinah Arabic Grammar
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_Store-FF6B35?style=for-the-badge)](https://www.trychroma.com/)
+[![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-black?style=for-the-badge)](https://ollama.ai)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![License](https://img.shields.io/badge/License-Educational-green?style=for-the-badge)](LICENSE)
+
+*Grounded in Dr. V. Abdur Rahim's Madinah Arabic curriculum. Explained in Br. Asif's teaching style. Powered entirely by local AI.*
+
+[🚀 Quick Start](#-quick-start) · [🏗️ Architecture](#️-architecture) · [📂 Project Structure](#-project-structure) · [🗺️ Roadmap](#️-roadmap)
+
+</div>
 
 ---
 
-## 📖 What is this?
+## 📖 Overview
 
-This project is an AI-powered Arabic grammar tutor built for **English-speaking students** studying the **Madinah Arabic curriculum** (by Dr. V. Abdur Rahim).
+**ArabicTutorRAG** is a production-grade AI tutor built for English-speaking students of the **Madinah Arabic** curriculum. Unlike a generic chatbot that guesses at grammar rules, this system retrieves *exact facts* from a structured knowledge base built from real lecture transcripts before generating any answer.
 
-Instead of relying on a generic chatbot, this system:
-
-1. **Extracts** grammar rules, vocabulary, and teaching examples from Br. Asif's YouTube lecture transcripts.
-2. **Stores** them in a **Knowledge Graph** (NetworkX) + **Vector Database** (ChromaDB) — a Hybrid GraphRAG architecture.
-3. **Retrieves** the exact relevant facts when a student asks a question.
-4. **Generates** a perfectly accurate answer in Br. Asif's teaching style via a local LLM (Qwen2.5:7b).
-5. **Guards** against prompt injection and out-of-scope requests (e.g., "write me Python code") via a One-Pass JSON Security Shield.
+| ✅ What it does | ❌ What it avoids |
+|---|---|
+| Grounds every answer in verified transcript data | Hallucinating Arabic grammar rules |
+| Speaks in a consistent, encouraging teaching persona | Responding to off-topic or malicious prompts |
+| Renders vowel-marked Arabic script (Tashkeel / Harakat) | Raw unvoweled Arabic that confuses beginners |
+| Runs 100% locally with zero cloud dependency at inference | Sending student data to external APIs |
 
 ---
 
 ## 🏗️ Architecture
 
+The system uses a **two-store Hybrid GraphRAG** approach. When a student asks a question, it queries both a vector similarity store *and* a knowledge graph before generating an answer.
+
 ```
-Student Question
-      │
-      ▼
-┌─────────────────────────────────────┐
-│         Security Shield             │  ← Blocks non-Arabic requests
-│     (One-Pass JSON Classifier)      │
-└─────────────────────────────────────┘
-      │ Safe? ✅
-      ▼
-┌─────────────┐    ┌──────────────────┐
-│  ChromaDB   │    │  NetworkX Graph  │
-│(Vector Sim) │    │ (Relationships)  │
-└─────────────┘    └──────────────────┘
-      │                    │
-      └────────┬───────────┘
-               ▼
-        ┌─────────────┐
-        │  Local LLM  │  ← qwen2.5:7b via Ollama
-        │  (Qwen2.5)  │
-        └─────────────┘
-               │
-               ▼
-        Br. Asif's Answer 🎓
+                    ┌──────────────────────┐
+  Student asks ───► │   Security Shield    │ ──► BLOCKED (code/math/off-topic)
+                    │  One-Pass JSON Guard │
+                    └──────────┬───────────┘
+                               │ ✅ Safe
+                    ┌──────────▼───────────┐
+                    │   Hybrid Retriever   │
+                    └─────────┬─┬──────────┘
+                              │ │
+              ┌───────────────┘ └──────────────┐
+              ▼                                 ▼
+    ┌──────────────────┐             ┌──────────────────────┐
+    │    ChromaDB      │             │   NetworkX Graph     │
+    │  Vector Search   │             │  Relationship Walk   │
+    │ (Semantic Match) │             │ (1st-degree Expand)  │
+    └────────┬─────────┘             └─────────┬────────────┘
+             └────────────┬──────────────────────┘
+                          ▼
+               ┌──────────────────┐
+               │  Context Block   │  ← Relevant chunks + graph edges merged
+               └────────┬─────────┘
+                        ▼
+               ┌──────────────────┐
+               │  qwen2.5:7b      │  ← Local LLM via Ollama
+               │  (Ollama)        │
+               └────────┬─────────┘
+                        ▼
+               📝  Br. Asif's Answer
 ```
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer | Technology |
-|---|---|
-| **Local LLM** | [Ollama](https://ollama.ai) — `qwen2.5:7b` |
-| **Embeddings** | `sentence-transformers/all-MiniLM-L6-v2` |
-| **Vector Store** | [ChromaDB](https://www.trychroma.com/) (local, persistent) |
-| **Knowledge Graph** | [NetworkX](https://networkx.org/) + JSON persistence |
-| **Graph Extraction** | Google Gemini 3.5 Flash Lite API |
-| **Data Source** | YouTube transcripts (Br. Asif's Madinah Arabic playlist) |
-| **Backend** | [FastAPI](https://fastapi.tiangolo.com/) |
-| **Frontend (Dev)** | [Streamlit](https://streamlit.io/) |
+<div align="center">
+
+| Layer | Technology | Purpose |
+|---|---|---|
+| 🧠 **Local LLM** | Ollama · `qwen2.5:7b` | Answer generation |
+| 🔢 **Embeddings** | `sentence-transformers/all-MiniLM-L6-v2` | Semantic encoding |
+| 🗄️ **Vector Store** | ChromaDB (local, persistent) | Similarity search |
+| 🕸️ **Knowledge Graph** | NetworkX + JSON | Relationship traversal |
+| 🤖 **Graph Extraction** | Gemini 3.5 Flash Lite API | Entity & relation extraction |
+| 📺 **Data Source** | YouTube Transcript API | Lecture transcript ingestion |
+| ⚡ **Backend** | FastAPI | REST API serving |
+| 🖥️ **Frontend** | Streamlit | Chat web interface |
+
+</div>
 
 ---
 
 ## 🚀 Quick Start
 
-### 1. Prerequisites
+### Prerequisites
 
-- **Python 3.10+**
-- **[Ollama](https://ollama.ai/download)** installed and running
-- A **Gemini API key** (free tier works) for the graph extraction phase
+Ensure the following are installed before proceeding:
 
-### 2. Install Dependencies
+- [Python 3.10+](https://www.python.org/downloads/)
+- [Ollama](https://ollama.ai/download) (for local LLM inference)
+- A free [Gemini API Key](https://aistudio.google.com/app/apikey) (only needed for the one-time graph extraction phase)
+
+---
+
+### Step 1 — Clone & Install
 
 ```bash
+git clone https://github.com/ehtsmulhq/ArabicTutorRAG.git
+cd ArabicTutorRAG
 pip install -r requirements.txt
 ```
 
-### 3. Set Up Environment Variables
+### Step 2 — Configure Environment
 
 ```bash
-# Copy the example file and fill in your key
 cp .env.example .env
 ```
 
-Then edit `.env`:
-```
+Open `.env` and add your Gemini key:
+
+```env
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-### 4. Pull the Local LLM
+### Step 3 — Pull the Local LLM
 
 ```bash
 ollama pull qwen2.5:7b
@@ -99,66 +130,86 @@ ollama pull qwen2.5:7b
 
 ## 🔧 Pipeline Execution
 
-Run the scripts in this exact order to build the full knowledge store from scratch.
+Run each phase **in order** to build the full knowledge store from scratch.
 
-### Phase 1 — Ingest Transcripts
+```
+  Transcripts  ──►  Chunks  ──►  Graph  ──►  Vectors  ──►  Query Engine
+   (Phase 1)        (Phase 1)    (Phase 2)    (Phase 3)      (Phase 3)
+```
 
-Fetches transcripts from the Br. Asif YouTube playlist and cleans them:
+### Phase 1 — Ingest & Clean Transcripts
 
 ```bash
+# Download transcripts from Br. Asif's YouTube playlist
 python src/ingestion/youtube_transcriber.py
+
+# Fix Arabic phonetic misspellings and remove [Music] tags
 python src/ingestion/transcript_cleaner.py
+
+# Chunk transcripts into semantic units
 python src/ingestion/chunker.py
 ```
 
-> **Output:** `data/processed/all_chunks.json` — 848 clean transcript chunks.
+> 📦 **Output:** `data/processed/all_chunks.json` — 848 clean transcript chunks
 
 ### Phase 2 — Extract Knowledge Graph
-
-Uses the Gemini API to extract grammar entities and relationships from the chunks:
 
 ```bash
 python src/extraction/graph_builder_gemini.py
 ```
 
-> **Output:** `data/processed/knowledge_graph_gemini.json`  
-> ⚠️ This step consumes Gemini API quota. Processing 848 chunks in batches of 5 takes ~170 API calls.
+> 📦 **Output:** `data/processed/knowledge_graph_gemini.json`
+>
+> ⚠️ **Note:** This step uses the Gemini API. Processing 848 chunks in batches of 5 consumes approximately 170 API calls. The free tier is sufficient.
 
 ### Phase 3 — Build Vector Database
-
-Embeds all chunks locally into a persistent ChromaDB vector store:
 
 ```bash
 python src/retrieval/build_vector_db.py
 ```
 
-> **Output:** `data/processed/chroma_db/` — 848 embedded vectors.
+> 📦 **Output:** `data/processed/chroma_db/` — 848 locally embedded vectors (ChromaDB)
 
 ---
 
 ## 💬 Running the Tutor
 
-### Option A — Terminal Chat (Quickest)
+Choose any of the three interfaces below:
+
+<details>
+<summary><b>🖥️ Option A — Terminal CLI (Fastest)</b></summary>
 
 ```bash
 python src/retrieval/query_engine.py
 ```
 
-### Option B — Streamlit Web UI
+Type your Arabic grammar question at the `Student:` prompt. Type `quit` to exit.
+
+> **Note:** Windows terminals may render Arabic script right-to-left incorrectly. Use the Web UI for proper rendering.
+
+</details>
+
+<details>
+<summary><b>🌐 Option B — Streamlit Web UI (Recommended)</b></summary>
 
 ```bash
 streamlit run src/ui/app.py
 ```
 
-The Streamlit UI renders Arabic text correctly in the browser (unlike the Windows terminal, which can display Arabic right-to-left characters backwards).
+Opens at `http://localhost:8501`. Arabic text is rendered correctly in all browsers.
 
-### Option C — FastAPI Backend
+</details>
+
+<details>
+<summary><b>⚡ Option C — FastAPI REST Backend</b></summary>
 
 ```bash
 uvicorn src.api.main:app --reload --port 8000
 ```
 
-Interactive API docs available at: `http://localhost:8000/docs`
+Interactive Swagger docs available at `http://localhost:8000/docs`.
+
+</details>
 
 ---
 
@@ -166,60 +217,94 @@ Interactive API docs available at: `http://localhost:8000/docs`
 
 ```
 ArabicTutorRAG/
-├── config/
-│   ├── schema.yaml          # Entity type definitions (Lesson, GrammarRule, etc.)
-│   └── prompts.yaml         # LLM extraction prompt templates
-├── data/
+│
+├── 📁 config/
+│   ├── schema.yaml              # Entity type definitions (Lesson, GrammarRule, VocabItem…)
+│   └── prompts.yaml             # LLM extraction prompt templates
+│
+├── 📁 data/
 │   ├── raw/
-│   │   ├── pdf/             # Drop Madinah Arabic PDFs here
-│   │   └── video/           # Drop lecture video files here (optional)
+│   │   ├── pdf/                 # Drop Madinah Arabic PDFs here
+│   │   └── video/               # Drop lecture video files here (optional)
 │   └── processed/
 │       ├── all_chunks.json              # 848 clean transcript chunks
-│       ├── knowledge_graph_gemini.json  # Extracted knowledge graph
-│       └── chroma_db/                   # Local vector database (git-ignored)
-├── src/
-│   ├── ingestion/           # Phase 1: Transcript download, cleaning, chunking
-│   ├── extraction/          # Phase 2: Entity & relationship extraction
-│   ├── retrieval/           # Phase 3: Hybrid GraphRAG query engine
-│   ├── api/                 # FastAPI backend
-│   └── ui/                  # Streamlit frontend
-├── .env.example             # Environment variable template
+│       ├── knowledge_graph_gemini.json  # Extracted knowledge graph (Gemini)
+│       ├── knowledge_graph.json         # Extracted knowledge graph (local LLM fallback)
+│       └── chroma_db/                   # Persistent vector store (git-ignored)
+│
+├── 📁 src/
+│   ├── ingestion/               # Phase 1 · Transcript download, cleaning, chunking
+│   │   ├── youtube_transcriber.py
+│   │   ├── transcript_cleaner.py
+│   │   └── chunker.py
+│   ├── extraction/              # Phase 2 · Entity & relationship extraction
+│   │   ├── graph_builder_gemini.py
+│   │   └── graph_builder.py     # Local LLM fallback
+│   ├── retrieval/               # Phase 3 · Hybrid GraphRAG query engine
+│   │   ├── build_vector_db.py
+│   │   ├── hybrid_retriever.py
+│   │   └── query_engine.py      # Main entry point
+│   ├── api/                     # FastAPI backend
+│   │   └── main.py
+│   └── ui/                      # Streamlit web interface
+│       └── app.py
+│
+├── .env.example                 # Environment variable template
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## 🛡️ Security Features
+## 🛡️ Security
 
-- **One-Pass JSON Security Shield:** Every query is evaluated for safety by the same LLM call that generates the answer. Out-of-scope requests (math, code, unrelated topics) are blocked before any database is searched.
-- **No secrets in repo:** `.env`, `cookies.txt`, ChromaDB binaries, and large PDFs are all git-ignored.
+This project implements a **One-Pass JSON Security Shield** at the query engine level:
+
+1. Every student message is embedded into a single Gemini/Ollama prompt that **simultaneously** classifies intent and generates the answer.
+2. The response is forced into a strict JSON schema: `{"is_safe": boolean, "answer": "..."}`.
+3. If `is_safe` is `false`, the answer field is discarded and a hardcoded refusal is displayed — the model never generates code, solves math, or discusses off-topic subjects.
+
+**This means zero extra API calls for security compared to a two-pass approach.**
 
 ---
 
 ## ⚠️ Known Limitations
 
-| Issue | Details |
-|---|---|
-| **Arabic Script** | The local 7B model sometimes outputs improperly connected Arabic letters. Use the Web UI (Streamlit) for correct RTL rendering. |
-| **Hallucination Risk** | `qwen2.5:7b` can hallucinate grammar facts not in its retrieved context. For production use, switch to a cloud LLM (Gemini / OpenAI / Groq). |
-| **Slow on CPU** | Without a GPU, generation may take 60–120 seconds per query. Consider a smaller model (`qwen2.5:3b`) or a cloud API. |
-| **Graph Coverage** | The current graph was extracted from Book 1 transcripts only. Books 2 and 3 can be added by re-running the pipeline with more videos. |
+| Issue | Impact | Workaround |
+|---|---|---|
+| **Arabic Script Quality** | Local 7B model may output improperly connected letters | Use Streamlit UI (browser handles RTL correctly) |
+| **Hallucination Risk** | Small LLMs fabricate facts not in retrieved context | Switch to Gemini / OpenAI API for production |
+| **CPU Inference Speed** | 60–120 sec/query without a GPU | Use `qwen2.5:3b` or a cloud API |
+| **Graph Coverage** | Only Book 1 transcripts are indexed | Re-run pipeline with Books 2 & 3 videos |
 
 ---
 
 ## 🗺️ Roadmap
 
-- [x] Phase 1: YouTube transcript ingestion & cleaning
-- [x] Phase 2: Hybrid GraphRAG extraction (NetworkX + ChromaDB)
-- [x] Phase 3: CLI query engine with security shield
-- [x] Phase 4: Streamlit Web UI
-- [ ] Phase 5: React/Next.js frontend + FastAPI production backend
-- [ ] Phase 6: QLoRA fine-tuning on extracted Q&A dataset
-- [ ] Phase 7: Multi-book ingestion (Madinah Books 2 & 3)
+- [x] **Phase 1** — YouTube transcript ingestion & automated cleaning
+- [x] **Phase 2** — Hybrid GraphRAG extraction (NetworkX + ChromaDB)  
+- [x] **Phase 3** — CLI query engine with One-Pass JSON Security Shield
+- [x] **Phase 4** — Streamlit Web UI with Arabic font support
+- [ ] **Phase 5** — React/Next.js frontend + production FastAPI backend
+- [ ] **Phase 6** — QLoRA fine-tuning on auto-generated Q&A training dataset
+- [ ] **Phase 7** — Multi-book ingestion (Madinah Books 2 & 3)
+- [ ] **Phase 8** — Spaced-repetition quiz engine (V2 product feature)
 
 ---
 
 ## 📄 License
 
-This project is for educational purposes. The Madinah Arabic curriculum content is based on the works of Dr. V. Abdur Rahim (public domain). Video transcripts sourced from Br. Asif's YouTube channel for non-commercial educational use only.
+This project is built for educational purposes.
+
+- The **Madinah Arabic curriculum** content is based on the works of **Dr. V. Abdur Rahim** (available in the public domain via lqtoronto.com).
+- **Video transcripts** are sourced from Br. Asif's YouTube channel for non-commercial educational use only.
+- All original code in this repository is available under the **MIT License**.
+
+---
+
+<div align="center">
+
+Built with ❤️ for the Madinah Arabic learning community.
+
+</div>
